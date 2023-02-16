@@ -1,5 +1,5 @@
 # scGRN
-A tool for gene regulatory network (GRN) construction
+A tool for gene regulatory network (GRN) construction and visualization
 
 # Basic assumptions
 1. TF existence and activity. (we usually use TF expression to estimate this, however, we still need western blot to confirm the protein expression. What's more we need more expriments to confirm the TF-DNA activity as a complex, see that Nature paper.)
