@@ -19,7 +19,7 @@ Population data
 
 # ggplot visulization of scGRN
 1. expression of TF (absolute expression)
-2. TF DNA motif and opening chromatin peak (proximal and distal 500 kb in maximun, zoom in form chromasome to gene/peak to DNA base)
+2. TF DNA motif and opening chromatin peak (proximal 10kb and distal 500kb in maximun, zoom in form chromasome to gene/peak to DNA base)
 3. peak and gene correlation (negative and positive) 
 4. Volcano plot of a TF target GRN
 5. Volcano plot of a gene module, enrich for TF
