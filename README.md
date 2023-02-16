@@ -3,7 +3,7 @@ A tool for gene regulatory network (GRN) construction and visualization
 
 # Basic assumptions
 1. TF existence and activity. (we usually use TF expression to estimate this, however, we still need western blot to confirm the protein expression. What's more we need more expriments to confirm the TF-DNA activity as a complex, see that Nature paper.)
-2. TF DNA motif occurence in open chromatin region. 
+2. TF DNA Motif Occurrence in open chromatin region. 
 3. Correlation between chromatin open and target gene expression.
 4. Co-accessibility peak and co-expression gene modules/topics (this is scGRN)
 
@@ -39,6 +39,7 @@ Population data
 - http://bioconductor.org/packages/release/bioc/html/ggbio.html
 - https://github.com/omarwagih/ggseqlogo
 - https://github.com/bradyajohnston/plasmapr/
+- https://github.com/jhkorhonen/MOODS [MOODS: Motif Occurrence Detection Suite]
 
 TF protein structure
 - https://bioconductor.org/packages/devel/bioc/vignettes/drawProteins/inst/doc/drawProteins_BiocStyle.html
