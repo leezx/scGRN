@@ -10,6 +10,7 @@ A tool for gene regulatory network (GRN) construction and visualization
 # Basic logic
 Individual data
 - single cell or sample with paired RNA-seq and ATAC-seq is enough to build a GRN.
+
 Population data
 - However, population cells or samples is powerful to link peak and gene with correlation.
 - Also, celltype specific-GRN and modules can be identified.
