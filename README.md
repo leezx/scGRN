@@ -10,7 +10,7 @@ A tool for gene regulatory network (GRN) construction
 # ggplot visulization of scGRN
 1. expression of TF (absolute expression)
 2. TF DNA motif and opening chromatin peak
-3. peak and gene correlation
+3. peak and gene correlation (negative and positive)
 4. Volcano plot of a TF target GRN
 5. Volcano plot of a gene module, enrich for TF
 6. Functional annotation of a novel GRN
