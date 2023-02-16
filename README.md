@@ -28,6 +28,7 @@ Population data
 # Other fancy plot
 1. circle plot for genomoe-wide visualization, target gene distribution
 2. add protein-protein interaction in circle plot
+3. gene UMAP plot to show different modules
 
 
 # Tools
