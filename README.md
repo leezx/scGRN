@@ -1,5 +1,6 @@
 # scGRN
-A tool for gene regulatory network (GRN) construction and visualization
+- Gene regulatory network is a functional module driven by specific regulators (TF or ncRNA). It's the basis of cell phenotype.
+- scGRN is a tool for gene regulatory network (GRN) construction and visualization
 
 # Basic assumptions
 1. TF existence and activity. (we usually use TF expression to estimate this, however, we still need western blot to confirm the protein expression. What's more we need more expriments to confirm the TF-DNA activity as a complex, see that Nature paper.)
