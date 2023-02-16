@@ -5,7 +5,16 @@ A tool for gene regulatory network (GRN) construction and visualization
 1. TF existence and activity. (we usually use TF expression to estimate this, however, we still need western blot to confirm the protein expression. What's more we need more expriments to confirm the TF-DNA activity as a complex, see that Nature paper.)
 2. TF DNA motif occurence in open chromatin region. 
 3. Correlation between chromatin open and target gene expression.
-4. Co-accessibility peak and co-expression gene modules/topics
+4. Co-accessibility peak and co-expression gene modules/topics (this is scGRN)
+
+# logic
+Individual data
+- single cell or sample with paired RNA-seq and ATAC-seq is enough to build a GRN.
+Population data
+- However, population cells or samples is powerful to link peak and gene with correlation.
+- Also, celltype specific-GRN and modules can be identified.
+- Finally, by compared case to control, we can see what GRN is disturbed and what GRN is generated.
+- So, a scGRN is defined by co-accessibility peak and co-expression gene modules/topics
 
 # ggplot visulization of scGRN
 1. expression of TF (absolute expression)
