@@ -15,7 +15,7 @@ Population data
 - However, population cells or samples is powerful to link peak and gene with correlation.
 - Also, celltype specific-GRN and modules can be identified.
 - Finally, by compared case to control, we can see what GRN is disturbed and what GRN is generated.
-- So, a scGRN is defined by co-accessibility peak and co-expression gene modules/topics
+- **So, a scGRN is defined by co-accessibility peak and co-expression gene modules/topics with enriched TF (DNA motif)**
 
 # ggplot visulization of scGRN
 1. expression of TF (absolute expression)
