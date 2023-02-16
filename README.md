@@ -7,7 +7,7 @@ A tool for gene regulatory network (GRN) construction and visualization
 3. Correlation between chromatin open and target gene expression.
 4. Co-accessibility peak and co-expression gene modules/topics (this is scGRN)
 
-# logic
+# Basic logic
 Individual data
 - single cell or sample with paired RNA-seq and ATAC-seq is enough to build a GRN.
 Population data
@@ -18,18 +18,18 @@ Population data
 
 # ggplot visulization of scGRN
 1. expression of TF (absolute expression)
-2. TF DNA motif and opening chromatin peak (proximal and distal, zoom in form chromasome to gene/peak to DNA base)
+2. TF DNA motif and opening chromatin peak (proximal and distal 500 kb in maximun, zoom in form chromasome to gene/peak to DNA base)
 3. peak and gene correlation (negative and positive) 
 4. Volcano plot of a TF target GRN
 5. Volcano plot of a gene module, enrich for TF
 6. Functional annotation of a novel GRN
 
-# other fancy plot
+# Other fancy plot
 1. circle plot for genomoe-wide visualization, target gene distribution
 2. add protein-protein interaction in circle plot
 
 
-# reference
+# Tools
 - ggcoverage - Visualize and annotate genome coverage with ggplot2
 - ggtranscript: an R package for the visualization and interpretation of transcript isoforms using ggplot2
 - https://github.com/dzhang32/ggtranscript
@@ -42,4 +42,5 @@ TF protein structure
 - https://bioconductor.org/packages/devel/bioc/vignettes/drawProteins/inst/doc/drawProteins_BiocStyle.html
 - https://cran.r-project.org/web/packages/protti/vignettes/protein_structure_workflow.html
 
-
+# References
+- Recent studies using 3C-based techniques have provided initial maps of distal enhancer–promoter contacts. Active promoters were found, on average, to contact 4–5 enhancer-like elements. The majority of these elements are located within 500 kb from the interacting promoter, with an estimated median distance of ~125 kb [17,18]. Interestingly, active enhancers were found to contact approximately two promoters on average, suggesting that enhancers might commonly regulate multiple genes. Moreover, only a fraction of looping distal elements contact the nearest promoter (reported as 27% in [18] and 60% in [19]), whereas the others skip one or more genes. These data indicate that it is often incorrect to assume that an enhancer interacts only with its nearest promoter. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4252644]
