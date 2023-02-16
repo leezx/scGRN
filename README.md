@@ -9,12 +9,26 @@ A tool for gene regulatory network (GRN) construction
 
 # ggplot visulization of scGRN
 1. expression of TF (absolute expression)
-2. TF DNA motif and opening chromatin peak
-3. peak and gene correlation (negative and positive)
+2. TF DNA motif and opening chromatin peak (proximal and distal, zoom in form chromasome to gene/peak to DNA base)
+3. peak and gene correlation (negative and positive) 
 4. Volcano plot of a TF target GRN
 5. Volcano plot of a gene module, enrich for TF
 6. Functional annotation of a novel GRN
 
 # other fancy plot
 1. circle plot for genomoe-wide visualization, target gene distribution
-2. 
+2. add protein-protein interaction in circle plot
+
+
+# reference
+- ggcoverage - Visualize and annotate genome coverage with ggplot2
+- ggtranscript: an R package for the visualization and interpretation of transcript isoforms using ggplot2
+- https://github.com/dzhang32/ggtranscript
+- https://github.com/YuLab-SMU/ggmsa
+- http://bioconductor.org/packages/release/bioc/html/ggbio.html
+- https://github.com/omarwagih/ggseqlogo
+- https://github.com/bradyajohnston/plasmapr/
+- 
+
+
+
