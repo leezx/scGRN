@@ -28,7 +28,9 @@ A tool for gene regulatory network (GRN) construction
 - http://bioconductor.org/packages/release/bioc/html/ggbio.html
 - https://github.com/omarwagih/ggseqlogo
 - https://github.com/bradyajohnston/plasmapr/
-- 
 
+TF protein structure
+- https://bioconductor.org/packages/devel/bioc/vignettes/drawProteins/inst/doc/drawProteins_BiocStyle.html
+- https://cran.r-project.org/web/packages/protti/vignettes/protein_structure_workflow.html
 
 
