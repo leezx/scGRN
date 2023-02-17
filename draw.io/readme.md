@@ -24,6 +24,8 @@
 5. Local files
 - - node key information
 - - edge key information
+6. Key features
+- - hide similar target genes (enriched in same pathways), simplify the network
 
 ## Key advantages
 - All in one
@@ -36,3 +38,5 @@
 - Automating DrawIO network topology using Python
 - Drawing and Writing Diagrams With draw.io
 - [Is there a python library to create draw.io-like schematics?](https://softwarerecs.stackexchange.com/questions/71267/is-there-a-python-library-to-create-draw-io-like-schematics)
+- [Folding and moving trees in draw.io](https://drawio-app.com/folding-and-moving-trees-in-drawio/)
+- [Use tags in diagrams to select, hide and display related shapes and connectors](https://www.diagrams.net/blog/tags-in-diagrams)
