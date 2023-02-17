@@ -8,4 +8,9 @@
 ## Important elements for a celltype specific GRN (case-control comparison)
 1. TF node
 - - Absolute expression
--- marker
+- - marker
+2. Regulation edge 
+- - DNA motif, peak, correlation, distance
+- - activation or repression
+3. Node annotation
+- - Functional annotation
