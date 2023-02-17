@@ -8,3 +8,4 @@
 ## Important elements for a celltype specific GRN (case-control comparison)
 1. TF node
 - - Absolute expression
+-- marker
